@@ -135,6 +135,9 @@ export class popular extends Component {
 
                     </div>
                 </div>
+                <div className='btn'>
+                    <button>Lead more</button>
+                </div>
             </div>
         )
     }
