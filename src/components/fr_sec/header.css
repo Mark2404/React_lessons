@@ -1,0 +1,138 @@
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+nav .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav .links a {
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    h1 {
+        color: #ffffff;
+    }
+}
+
+.nav_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav_buttons a {
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.nav_buttons button {
+    border-radius: 8px;
+    width: 118px;
+    height: 48px;
+    background: #ff6e30;
+    border: none;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    color: #fdf5ff;
+    color: white;
+}
+
+.with_int_sec div:nth-child(1) h1 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.9);
+    width: 600px;
+    margin-top: 40px;
+}
+
+.with_int_sec div:nth-child(1) p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    color: rgba(255, 255, 255, 0.55);
+    width: 487px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.with_int_sec .search input {
+    position: relative;
+    border-radius: 15px;
+    width: 497px;
+    height: 64px;
+    background: #283036;
+    border: none;
+    padding: 20px;
+    outline: none;
+}
+
+.search {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.with_int_sec .search button {
+    border-radius: 8px;
+    width: 130px;
+    height: 48px;
+    background: #ff6e30;
+    border-radius: 8px;
+    border: none;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    color: #fdf5ff;
+    color: white;
+    position: absolute;
+    top: 8px;
+    left: 350px;
+
+}
+
+.with_int_sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icons img {
+    cursor: pointer;
+}
