@@ -4,6 +4,7 @@ import Brend from "./components/third_sec/brands";
 import Tools from "./components/fourth_sec/Tools";
 import Brat from "./components/brat_sec/brat";
 import Input from "./components/input_sec/input";
+import Footer from "./components/footer_sec/footer";
 import "./App.css";
 function App() {
 
@@ -15,6 +16,8 @@ function App() {
       <Tools />
       <Brat />
       <Input />
+      <Footer />
+
     </div>
 
 
