@@ -1,0 +1,70 @@
+.brat {
+    position: relative;
+    width: 400px;
+
+}
+
+.brat_sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 100px;
+}
+
+.brat img {
+    z-index: -1;
+}
+
+.brat-box .brat-text {
+    border-radius: 8px;
+    width: 265px;
+    height: 91px;
+    backdrop-filter: blur(50px);
+    background: rgba(40, 48, 54, 0.2);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    position: absolute;
+    bottom: 30px;
+    right: 4px;
+}
+
+.brat-box .brat-text h3 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 26px;
+    letter-spacing: 0.01em;
+    color: rgba(255, 253, 253, 0.78);
+}
+
+.brat-box .brat-text p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 253, 253, 0.55);
+}
+
+.brat-description {
+    position: relative;
+
+}
+
+.brat-description img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.brat-description p {
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 0.78);
+    width: 400px;
+}

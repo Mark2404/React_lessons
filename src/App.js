@@ -2,6 +2,7 @@ import Header from "./components/fr_sec/header";
 import Popular from "./components/sc_sec/popular";
 import Brend from "./components/third_sec/brands";
 import Tools from "./components/fourth_sec/Tools";
+import Brat from "./components/brat_sec/brat";
 import "./App.css";
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       < Popular />
       < Brend />
       <Tools />
+      <Brat />
     </div>
 
 
