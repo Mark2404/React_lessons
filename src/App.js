@@ -3,6 +3,7 @@ import Popular from "./components/sc_sec/popular";
 import Brend from "./components/third_sec/brands";
 import Tools from "./components/fourth_sec/Tools";
 import Brat from "./components/brat_sec/brat";
+import Input from "./components/input_sec/input";
 import "./App.css";
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       < Brend />
       <Tools />
       <Brat />
+      <Input />
     </div>
 
 
