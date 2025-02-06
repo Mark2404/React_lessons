@@ -1,0 +1,35 @@
+.brands_box {
+
+    border-radius: 25px;
+    width: 1224px;
+    height: 253px;
+    backdrop-filter: blur(50px);
+    background: rgba(44, 53, 61, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.brands_box h3 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+}
+
+.brands {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 30px;
+
+}
+
+.brands img {
+    width: 150px;
+    height: 50px;
+}

@@ -1,0 +1,51 @@
+.Tools_sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-top: 100px;
+
+}
+
+.Tools_sec .text {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.Tools_sec .text h1 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 20px;
+}
+
+.Tools_sec .text p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 167%;
+    color: rgba(255, 255, 255, 0.55);
+    width: 487px;
+}
+
+.Tools_sec .text button {
+    border-radius: 8px;
+    width: 198px;
+    height: 58px;
+    background: #ff6e30;
+    color: white;
+    border: none;
+    margin-top: 50px;
+}
+
+.tools-cards .right_site-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+
+}
